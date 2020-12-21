@@ -17,7 +17,9 @@ export class editOwnerObj {
         //this.nextMnth = element(by.xpath("//*[@class='mat-calendar-next-button mat-icon-button']"));
         this.nextMnth = element(by.xpath("//*[@aria-label='Next month']"));
         this.previousMnth= element(by.xpath("//*[@aria-label='Previous month']"));
-            
+
+        
+        element(by.xpath("//*[contains(text(),'Edit')]")); 
 
     }
 
